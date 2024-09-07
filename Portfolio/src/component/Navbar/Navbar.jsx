@@ -37,7 +37,7 @@ const closeMenu = () => {
         <li><AnchorLink className='anchor-link' offset={50} href='#work'> <p onClick={() => setmenu('work')}>Portfolio</p> </AnchorLink>{menu==="work"?<img src={underline} alt=''/>:<></>}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#contact'> <p onClick={() => setmenu('contact')}>Contact</p></AnchorLink> {menu==="contact"?<img src={underline} alt=''/>:<></>}</li>
       </ul>
-      <div className='nav-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>  Connect with me </AnchorLink></div>
+      <AnchorLink className='anchor-link nav-connect' offset={50} href='#contact'>  Connect with me </AnchorLink>
     </div>
   )
 }

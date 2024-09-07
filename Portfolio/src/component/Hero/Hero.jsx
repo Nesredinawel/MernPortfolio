@@ -20,10 +20,10 @@ and Next.js). I’ve worked on projects like a Farmers product store web app and
 applications. I’m eager to deliver new technology to make life easier for people. I enjoy coding.
 </p>
    <div className='hero-action'>
-   <div className='hero-connect'>
+  
 
-   <AnchorLink className='anchor-link' offset={50} href='#contact'>  Connect with me </AnchorLink>
-   </div>
+   <AnchorLink className='anchor-link hero-connect' offset={50} href='#contact' >  Connect with me </AnchorLink>
+   
    <div className='hero-resume'>My resume </div>
    </div>
     </div>

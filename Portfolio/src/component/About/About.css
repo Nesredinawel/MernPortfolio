@@ -69,15 +69,22 @@
 .about-skill p{
     min-width: 150px;
     font-size: 24px;
-    font-weight:500 ;
+    font-weight:400 ;
 }
 .about-skill hr{
     outline: none;
     border: none;
-    width: 50%;
     height: 8px;
     border-radius: 50px;
-    background:  linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    align-items: self-start;
+    display: flex;
+   
+}
+.about-skill span{
+    display: block;
+  font-weight: 200;
+  font-size: 10px;
+   
 }
 
 .about-achievements{
@@ -212,6 +219,71 @@ padding-top: 20px;
     font-weight: 400;
     font-size: larger;
 }
+.cer-more{
+ padding-left:500px ;
+ 
+}
+.cer-more-botton{
+    
+  padding: 3px 20px;
+    border-radius: 50px;
+    background:linear-gradient(267deg, #DA7C25 0.36%, #B923E1 80.6%);
+    cursor: pointer; 
+    transition: 1.4s;
+  width: 113px;
+  
+}
+.cer-more-botton:hover{
+    padding: 3px 20px;
+    border-radius: 50px;
+    background:linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    cursor: pointer; 
+    transition: 1.4s;
+  width: 113px;
+
+  transform: scale(1.05);
+  transition: 1.4s;
+  }
+.cer-more-botton h4{
+    
+    font-weight: 400;
+    font-size: small;
+}
+
+
+
+.edu-doc{
+    padding:70px 0px;
+}
+.edu-doc h6{
+    padding:20px;
+    font-weight: 400;
+    font-size: medium;
+    color: red;
+    opacity: 80%;
+}
+
+.edu-button{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background:linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    cursor: pointer; 
+    transition: 1.4s;
+    text-decoration: none;
+}
+
+.edu-button:hover{
+    align-items: center;
+    padding: 25px 45px;
+    border-radius: 50px;
+    background:linear-gradient(267deg, #DA7C25 0.36%, #B923E1 40.6%);
+    cursor: pointer; 
+    transform: scale(1.05);
+    transition: 1.4s;
+}
+
+
+
 
 .ex-activity-data{
     padding-left: 20px;
@@ -227,6 +299,11 @@ padding-top: 20px;
     font-size: medium;
     display: flex;
 }
+
+
+
+
+
 
 @media(max-width:768px){
     .about{

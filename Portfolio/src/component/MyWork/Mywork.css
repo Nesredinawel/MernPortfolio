@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    
 
 }
 
@@ -36,7 +36,7 @@
 }
  
 
-.mywork-container img{
+.mywork-con-img{
     box-sizing: border-box;
     width: 419px;
     height: 280px;
@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 
-.mywork-container img:hover{
+.mywork-con-img:hover{
     transform: scale(1.10);
     border: 4px solid #ff00ff;
     border-radius: 10px;
@@ -72,6 +72,181 @@
 }
 
 
+.mywork-details {
+    padding: 20px;
+}
+
+
+
+.detail-top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.detail-top-left{
+   padding: 20px;
+}
+
+.detail-top-left img{
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    border-radius: 3%;
+}
+
+/* carousel */
+.detail-bottom-left-detail {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    width: 850px;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container.animating {
+    opacity: 0; /* Fades out the image */
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: rgb(112, 239, 15);
+    opacity: 40%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 60px;
+   
+}
+
+.prev-button {
+    left: 20px;
+}
+
+.next-button {
+    right: 20px;
+}
+
+.prev-button:hover, .next-button:hover {
+  background-color: transparent;
+}
+
+
+/* carousel end */
+
+.detail-top-right h2{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 20px;
+}
+
+.detail-top-right div{
+    padding: 20px;
+}
+
+
+.detail-bottom-container h2{
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 20px;
+}
+
+.detail-bottom {
+    display: flex;
+    
+}
+.detail-bottom h2{
+    background: linear-gradient(270deg, #08dfd1 90%, #0ccf7b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.detail-bottom-left{
+    padding: 20px;
+}
+.detail-bottom-left div{
+   padding: 10px;
+}
+.detail-bottom-left-detail{
+    padding: 1px;
+    background: #01ff78;
+    border-radius: 20px;
+}
+
+.detail-bottom-left-detail img{
+    width: 850px;
+}
+
+.detail-bottom-right{
+    padding: 20px;
+}
+.detail-bottom-right-status{
+    padding: 20px;
+    
+}
+.detail-bottom-right-status h3{
+    padding: 10px;
+    background: linear-gradient(270deg, #01ff78 60%, #cf500c 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.detail-bottom-right-status-list{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+  
+}
+.detail-bottom-right-status-lists hr{
+    outline: none;
+    border: none;
+    height: 2px;
+    border-radius: 20px;
+    align-items: self-start;
+    display: flex;
+    background: linear-gradient(270deg, #cf500c 60%, #01ff78  100%);
+    margin: 10px;
+}
+
+.detail-end{
+    padding-left: 1000px;
+}
+.back-button{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background:linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.6%);
+    cursor: pointer;
+    border: none;
+    
+}
+.back-button h3{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+.back-button:hover{
+    border: 2px solid white;
+}
+
+
 @media(max-width:768px){
     .mywork{
         gap: 50px;
@@ -93,7 +268,7 @@
         grid-template-columns: 1fr 1fr;
         gap: 30px;
     }
-    .mywork-container img{
+    .mywork-con-img{
         width: 100%;
         height: 100%;
     }
@@ -104,3 +279,4 @@
         cursor: pointer;
     }
 }
+

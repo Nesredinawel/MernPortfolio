@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+   
 
 }
 
@@ -29,11 +29,12 @@
 }
 
 .service-format{
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap:20px;
-    padding: 60px;
+    padding: 50px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
@@ -43,8 +44,9 @@
 .service-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 30px;
     margin-bottom: 80px;
+    padding: 20px;
 
 
 }
@@ -68,6 +70,10 @@
     font-size: 24px;
     line-height: 40px;
     max-width: 300px;
+             
+    overflow: hidden;       
+    text-overflow: ellipsis; 
+    white-space: nowrap;
 
 }
 
@@ -77,6 +83,32 @@
     align-items: center;
     margin-top: 20px;
 
+}
+
+.service-readmore button{
+    padding: 10px 25px;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #cf500c 10%, #01ff78  100%);
+   opacity: 60%;
+    cursor: pointer;
+    border: none;
+}
+
+.service-readmore button:hover{
+    padding: 10px 25px;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #cf500c 30%, #01ff78  100%);
+    cursor: pointer;
+    border: none;
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.service-readmore h4{
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    opacity: 100%;
 }
 .service-format:hover{
     border: 2px solid #ff00ff;
@@ -107,6 +139,10 @@
     .service-format{
         gap: 20px;
         padding: 32px;
+        width: 200px;          
+        overflow: hidden;       
+        text-overflow: ellipsis; 
+        white-space: nowrap;
 
     }
     .service-format h2{
@@ -129,3 +165,151 @@
 
 
 }
+
+
+/* Modal overlay */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+ 
+  /* Modal content */
+.modal-content {
+    background: #01ff78;
+    opacity: 93%;
+    border-radius: 10px;
+    position: relative;
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    padding: 4px 2px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.modal-content {
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .modal-content::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+  }
+
+.modal.open .modal-content {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  /* Close button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #01ff78;
+  }
+  
+  /* ServiceDetail styles */
+  .service-detail {
+    display: flex;
+  padding: 20px;
+ border-radius: 10px;
+    background: #161513;
+  }
+  
+  .service-detail h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .service-detail p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+
+  }
+
+  .service-detail-left{
+   
+    padding: 20px;
+  }
+ 
+
+  .service-detail-right{
+    padding-top: 150px;
+   
+  }
+
+  .service-detail-right-top p{
+    padding:10px 30px;
+  }
+  .service-detail-right-bottom{
+    padding-top:20px ;
+  }
+  .service-detail-right-bottom-list{
+    padding: 20px;
+  }
+  .service-detail-right-bottom-list div{
+
+    padding: 10px;
+   
+  }
+
+.detail-bottom-left{
+    width: 530px;
+    height: auto;
+}
+  /* carousel */
+.detail-bottom-left-detail {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-container img {
+   max-width: 500px;
+   max-height: 500px;
+    border-radius: 10px;
+   
+}
+
+.prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: rgb(112, 239, 15);
+    opacity: 40%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 60px;
+   
+}
+
+.prev-button {
+    left: 20px;
+}
+
+.next-button {
+    right: 20px;
+}
+
+.prev-button:hover, .next-button:hover {
+  background-color: transparent;
+}
+
+ 
+  
