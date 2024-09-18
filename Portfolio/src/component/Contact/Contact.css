@@ -136,12 +136,12 @@
 
 @media(max-width:668px){
     .contact{
-        gap: 50px;
-        margin: 50px 70px;
+         margin: 20px 50px;
         align-items: start;
 
     }
     .contact-title h1{
+        width: 300px;
         padding: 0;
         font-size: 50px;
         font-weight: 600;
@@ -153,7 +153,8 @@
 
     }
     .contact-section{
-        flex-direction: column;
+        gap: 50px;
+       display: flex;
 
     }
     .contact-left h1 {
@@ -174,6 +175,11 @@
     }
     .contact-right label{
         font-size: 20px;
+
+    }
+    .contact-right {
+        align-items: start;
+        width: 600px;
 
     }
     .contact-right input{

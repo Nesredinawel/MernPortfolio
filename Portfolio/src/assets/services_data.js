@@ -1,5 +1,13 @@
-import proj_img_1 from '../assets/product_13.png'
-import proj_img_2 from '../assets/product_12.png'
+import proj_img_1 from '../assets/services/service_1.png'
+import proj_img_2 from '../assets/services/service_2.png'
+import proj_img_3 from '../assets/services/service_3.png'
+import proj_img_4 from '../assets/services/service_4.png'
+import proj_img_5 from '../assets/services/service_5.png'
+import proj_img_6 from '../assets/services/service_6.png'
+import proj_img_7 from '../assets/services/service_7.png'
+import proj_img_8 from '../assets/services/service_8.png'
+import proj_img_9 from '../assets/services/service_9.png'
+
 
 
 const Services_Data = [
@@ -13,7 +21,7 @@ const Services_Data = [
          we deliver cutting-edge designs that combine aesthetics with functionality.`,
          s_images: [
             {
-                images: [proj_img_1, proj_img_2] // Array of images
+                images: [proj_img_5, proj_img_4] // Array of images
             }
         ],
         s_offer:[
@@ -55,7 +63,7 @@ const Services_Data = [
          capture attention and drive engagement across all your social media platforms.`,
          s_images: [
             {
-                images: [proj_img_1, proj_img_2] // Array of images
+                images: [proj_img_3,] // Array of images
             }
         ],
         s_offer:[
@@ -76,7 +84,7 @@ const Services_Data = [
          we ensure your app stands out in a competitive market.`,
          s_images: [
             {
-                images: [proj_img_1, proj_img_2] // Array of images
+                images: [proj_img_6, proj_img_9] // Array of images
             }
         ],
         s_offer:[
@@ -96,7 +104,7 @@ const Services_Data = [
          ,
          s_images: [
             {
-                images: [proj_img_1, proj_img_2] // Array of images
+                images: [proj_img_3,] // Array of images
             }
         ],
         s_offer:[
@@ -116,7 +124,7 @@ const Services_Data = [
         and drives conversions. Whether you need blog posts, website copy, or marketing materials, we deliver content that informs, persuades, and converts.`,
         s_images: [
             {
-                images: [proj_img_1, proj_img_2] // Array of images
+                images: [proj_img_8, proj_img_7] // Array of images
             }
         ],
         s_offer:[

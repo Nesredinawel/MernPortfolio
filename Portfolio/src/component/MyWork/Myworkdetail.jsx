@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { GrFormNext } from "react-icons/gr";
 import { GrFormPrevious } from "react-icons/gr";
+import "./Mywork.css"
+
 const Myworkdetail = ({ work, onBack }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [isAnimating, setIsAnimating] = useState(false);
@@ -40,10 +42,20 @@ const Myworkdetail = ({ work, onBack }) => {
     return (
         <div className='mywork-details'>
             <div className="detail-top">
-                <div className="detail-top-left">
-                    <h2>{work.w_name}</h2>
-                    <img src={work.w_img} alt='' />
-                </div>
+            <div className="detail-top-left">
+    <h2>{work.w_name}</h2>
+
+    {/* Render image only if the video file is not present */}
+    {!work.w_img.includes('.mp4') && <img src={work.w_img} alt='' />}
+
+    {/* Render video if it is a video file */}
+    {work.w_img.includes('.mp4') && (
+        <video width="600" controls>
+            <source src={work.w_img} type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
+    )}
+</div>
                 <div className="detail-top-right">
                     <h2>DESCRIPTION</h2>
                     <div>{work.w_desc}</div>

@@ -79,16 +79,19 @@
 @media(max-width:668px){
     .footer{
         margin: 50px 70px;
+        width: 900px; 
 
     }
-    .footer-top{
-        flex-direction: column;
-        gap: 50px;
+    .footer  hr{
+        width:900px;
     }
+  
     .footer-bottom{
         display: flex;
         flex-direction: column-reverse;
         margin-bottom: 50px;
-
+        width: 900px;
+        
     }
+    .footer-bottom-right{}
 }

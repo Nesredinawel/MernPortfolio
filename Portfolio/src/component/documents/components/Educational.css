@@ -58,8 +58,9 @@ cursor: pointer;
     border-radius: 30px;
 }
 
-.top-right div{
-   
+.top-right img{
+   width: 600px;
+   height: 500px;
 }
 
 
@@ -155,7 +156,7 @@ font-size: 70px;
   }
   
   .modal-content {
-    background: white;
+    background: black;
     padding: 20px;
     border-radius: 8px;
    
@@ -163,12 +164,40 @@ font-size: 70px;
   }
   
   .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
     background: none;
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
   }
   
+
+
+  @media(max-width:768px){
+    
+    .top{
+    gap: 80px;
+    height: 300px;
+    width: 1200px;
+    padding: 10%;
+    margin: 0%;
+    }
+    .top-left {
+        width: 100%;
+       
+    }
+    .top-left p {
+        max-width: 900px;
+        
+       
+    }
+
+  .top-right{
+  display: none;
+  }
+  
+
+   
+  }

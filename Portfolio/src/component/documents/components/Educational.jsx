@@ -4,6 +4,7 @@ import { useState } from "react";
 import Regular from './Regular';
 import Certificate from './Certificate';
 import { Link } from 'react-router-dom';
+import profile_img from '../../../assets/aboutprofile2.jpg';
 
 const Educational = () => {
   // State to handle modal visibility
@@ -31,11 +32,11 @@ const Educational = () => {
       <div className='left-arrow'><span><Link to={"/"}><FaArrowLeft  /></Link></span>
         <h2> MY ACADEMIC CREDENTIAL</h2>
       </div>
-      <div className="content">
+      
         <div className="top">
           <div className="top-left">
             <h2>ACADEMIC CREDENTIALS</h2>
-            <div>
+            
               <p>
                 An academic credential or educational qualification refers to 
                 any official documentation or recognition awarded by an educational institution that
@@ -43,10 +44,12 @@ const Educational = () => {
                 These documents serve as proof that an individual has completed certain educational or 
                 training programs, attained knowledge, or mastered specific skills.
               </p>
-            </div>
+            
           </div>
           <div className="top-right">
-            <div>{/* profile image */}</div>
+           
+            <img src={profile_img} alt="" />
+            
           </div>
         </div>
 
@@ -80,7 +83,7 @@ const Educational = () => {
             </div>
           </div>
         </div>
-      </div>
+      
 
       {/* Modal 1 */}
       {isModal1Open && (

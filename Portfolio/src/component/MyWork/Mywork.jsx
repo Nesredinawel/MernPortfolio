@@ -37,8 +37,17 @@ const Mywork = () => {
            {
             return(<div  key={index} className="" onClick={() => handleContainerClick(work)} >
                                     
-               <img className='mywork-con-img' src={work.w_img} alt=''/>
-              
+               
+                {/* Render image only if the video file is not present */}
+    {!work.w_img.includes('.mp4') && <img className='mywork-con-img' src={work.w_img} alt=''/>}
+
+{/* Render video if it is a video file */}
+{work.w_img.includes('.mp4') && (
+    <video loop muted autoPlay className='mywork-con-img' width="600" >
+        <source src={work.w_img} type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+)}
             </div>
               
             )
@@ -48,10 +57,10 @@ const Mywork = () => {
              
   { !SelectedWork?
     (    
-      <div className="mywork-showmore">
-          <p>Show More</p>
-          <img src={arrow_icon} alt="" />
-      </div>):""
+     <div className='showmore-con'> <div className="mywork-showmore">
+     <p>Show More</p>
+     <img src={arrow_icon} alt="" />
+ </div></div>):""
   }
       
     </div>
