@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import profile_img from '../../assets/Aboutprofile.jpg'
@@ -9,6 +9,12 @@ import { Link } from 'react-router-dom'
 
 
 const About = () => {
+
+    const [showMore, setShowMore] = useState(false);
+
+    const handleToggle = () => {
+      setShowMore((prevState) => !prevState);
+    };
     
   return (
     <div id='about' className=''>
@@ -108,10 +114,48 @@ const About = () => {
 </h2>
                           <h4>Dereja</h4></div>
                           </div>
-                            
+                          {showMore && (
+       <div>
+           <div className="certificate-data"> 
+          <div className=""><h4>SEP 8 , 2024</h4>
+          <h5>certification was issued</h5></div>
+       <div className=""><h2>Introduction to Software Engineering
+</h2>
+       <h4>COURSERA</h4></div>
+       </div>
+       <div className="certificate-data"> 
+          <div className=""><h4>SEP 8 , 2024</h4>
+          <h5>certification was issued</h5></div>
+       <div className=""><h2>Introduction to Web Development
+</h2>
+       <h4>COURSERA</h4></div>
+       </div>
+       <div className="certificate-data"> 
+          <div className=""><h4>SEP 3 , 2024</h4>
+          <h5>certification was issued</h5></div>
+       <div className=""><h2>Essentila canva Design
+</h2>
+       <h4>Udemy</h4></div>
+       </div>
+       <div className="certificate-data"> 
+          <div className=""><h4>SEP 2 , 2024</h4>
+          <h5>certification was issued</h5></div>
+       <div className=""><h2>Python 
+</h2>
+       <h4>Udemy</h4></div>
+       </div>
+       </div>
+
+       
+        )}
                         </div>
 
-                       <div className="cer-more"> <div className="cer-more-botton"><h4>More Certifications</h4></div></div>
+                 
+                        <div className="cer-more"> <div className="cer-more-botton" onClick={handleToggle}>  <h4>{showMore ? "Show Less" : "More Certifications"}</h4></div></div>
+      
+
+
+        
                     </div>
                     {/* extra activity */}
 

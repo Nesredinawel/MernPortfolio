@@ -91,19 +91,19 @@ const Myworkdetail = ({ work, onBack }) => {
            <div className="detail-bottom-right-status-lists">
           <div className="detail-bottom-right-status-list"> <h3>UI/UX Design: </h3><div className="">{status.s_1}</div></div>
           <hr />
-        <div className="detail-bottom-right-status-list">  <h3>Frontend Development:</h3><div className="">{status.s_1}</div></div>
+        <div className="detail-bottom-right-status-list">  <h3>Frontend Development:</h3><div className="">{status.s_2}</div></div>
         <hr />
-         <div className="detail-bottom-right-status-list"><h3>Backend Development:</h3><div className="">{status.s_1}</div></div>
+         <div className="detail-bottom-right-status-list"><h3>Backend Development:</h3><div className="">{status.s_3}</div></div>
          <hr />
-        <div className="detail-bottom-right-status-list"> <h3>Integration:</h3><div className="">{status.s_1}</div></div>
+        <div className="detail-bottom-right-status-list"> <h3>Integration:</h3><div className="">{status.s_4}</div></div>
         <hr />
-        <div className="detail-bottom-right-status-list"> <h3>Testing & QA:</h3><div className="">{status.s_1}</div></div>
+        <div className="detail-bottom-right-status-list"> <h3>Testing & QA:</h3><div className="">{status.s_5}</div></div>
         <hr />
-        <div className="detail-bottom-right-status-list"> <h3>Deployment (Staging):</h3><div className="">{status.s_1}</div></div>
+        <div className="detail-bottom-right-status-list"> <h3>Deployment (Staging):</h3><div className="">{status.s_6}</div></div>
         <hr />
-          <div className="detail-bottom-right-status-list"><h3>Deployment (Production):</h3><div className="">{status.s_1}</div></div>
+          <div className="detail-bottom-right-status-list"><h3>Deployment (Production):</h3><div className="">{status.s_7}</div></div>
           <hr />
-        <div className="detail-bottom-right-status-list"> <h3>Post-Launch Monitoring & Maintenance:</h3><div className="">{status.s_1}</div></div>
+        <div className="detail-bottom-right-status-list"> <h3>Post-Launch Monitoring & Maintenance:</h3><div className="">{status.s_8}</div></div>
         <hr />
          </div>
          ))}

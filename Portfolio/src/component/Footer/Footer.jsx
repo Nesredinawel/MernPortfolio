@@ -10,7 +10,7 @@ const Footer = () => {
        
         <hr />
               <div className="footer-bottom">
-                <p className="footer-bottom-left">@ 2023 nesredin awel . Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, eaque.</p>
+                <p className="footer-bottom-left">@ 2023 nesredin awel . Personal portfolio Website design </p>
                 <div className="footer-bottom-right">
                     <p>Term of services</p>
                     <p>Privacy Policy</p>

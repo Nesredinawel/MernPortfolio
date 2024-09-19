@@ -1,7 +1,7 @@
 import certificate_1 from "./certi_2.jpg"
 import certificate_2 from "./certi_3.jpg"
 import certificate_3 from "./certi_4.png"
-
+import certificate_4 from "./certi_1.jpg"
 import certificate_5 from "./certi_5.png"
 import certificate_6 from "./certi_6.jpg"
 
@@ -22,7 +22,7 @@ let certificate = [
         a_name:"Introduction To Web Development",
         a_desc:`Web development is the process of creating websites and web applications that are accessed via the internet or an intranet. 
         It involves several key technologies, primarily HTML, CSS, and JavaScript, each of which plays a specific role in the development of a webpage.`,
-        a_images:certificate_2,
+        a_images:certificate_1,
         a_type:"ONLINE COURSE"
     },
 
@@ -33,7 +33,7 @@ let certificate = [
          development, testing, deployment, and maintenance of software systems.
          It follows a systematic approach to ensure the production of high-quality
           software that meets user requirements, operates reliably, and is cost-effective`,
-        a_images:certificate_3,
+        a_images:certificate_2,
          a_type:"ONLINE COURSE"
     },
 
@@ -66,7 +66,15 @@ let certificate = [
         a_name:"Graphic Design with Canva ",
         a_desc:`An essential Canva course for graphic design would cover the key tools, techniques, and principles required to create visually
          appealing and professional designs. Canva is widely used for its simplicity and ease of use, making it accessible to both beginners and experienced designers.`,
-        a_images:certificate_1,
+        a_images:certificate_4,
+         a_type:"ONLINE COURSE"
+    },
+    
+    {
+        a_name:"Figma ui/ux Design ",
+        a_desc:`An essential Canva course for graphic design would cover the key tools, techniques, and principles required to create visually
+         appealing and professional designs. Canva is widely used for its simplicity and ease of use, making it accessible to both beginners and experienced designers.`,
+        a_images:certificate_3,
          a_type:"ONLINE COURSE"
     },
 

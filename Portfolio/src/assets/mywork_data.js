@@ -50,14 +50,14 @@ w_overview: [
         ,
         w_status:[
             {
-                s_1:`checked`,
-                s_2:`checked`,
-                s_3:`checked`,
-                s_4:`checked`,
-                s_5:`checked`,
-                s_6:`checked`,
-                s_7:`checked`,
-                s_8:`checked`,
+                s_1:`Checked`,
+                s_2:`Checked`,
+                s_3:`Checked`,
+                s_4:`Checked`,
+                s_5:`Pending`,
+                s_6:`Pending`,
+                s_7:`Pending`,
+                s_8:`Pending`,
                 
 
             }
@@ -82,14 +82,14 @@ w_overview: [
         ],
         w_status:[
             {
-                s_1:`checked`,
-                s_2:`checked`,
-                s_3:`checked`,
-                s_4:`checked`,
-                s_5:`checked`,
-                s_6:`checked`,
-                s_7:`checked`,
-                s_8:`checked`,
+                s_1:`Checked`,
+                s_2:`Checked`,
+                s_3:`------`,
+                s_4:`------`,
+                s_5:`------`,
+                s_6:`------`,
+                s_7:`------`,
+                s_8:`------`,
                 
 
             }
@@ -115,14 +115,13 @@ Our intelligent recommendation system uses advanced AI algorithms to analyze
         ],
         w_status:[
             {
-                s_1:`checked`,
-                s_2:`checked`,
-                s_3:`checked`,
-                s_4:`checked`,
-                s_5:`checked`,
-                s_6:`checked`,
-                s_7:`checked`,
-                s_8:`checked`,
+                s_1:`Checked`,
+                s_2:`Checked`,
+                s_3:`Checked`,
+                s_4:`Pending`,
+                s_5:`Ppending`,
+                s_7:`Pending`,
+                s_8:`Pending`,
                 
 
             }
@@ -142,14 +141,14 @@ Our intelligent recommendation system uses advanced AI algorithms to analyze
        ],
         w_status:[
             {
-                s_1:`checked`,
-                s_2:`checked`,
-                s_3:`checked`,
-                s_4:`checked`,
-                s_5:`checked`,
-                s_6:`checked`,
-                s_7:`checked`,
-                s_8:`checked`,
+                s_1:`-------`,
+                s_2:`-------`,
+                s_3:`-------`,
+                s_4:`-------`,
+                s_5:`-------`,
+                s_6:`-------`,
+                s_7:`-------`,
+                s_8:`-------`,
                 
 
             }
@@ -168,14 +167,14 @@ Our intelligent recommendation system uses advanced AI algorithms to analyze
         ],
         w_status:[
             {
-                s_1:`checked`,
-                s_2:`checked`,
-                s_3:`checked`,
-                s_4:`checked`,
-                s_5:`checked`,
-                s_6:`checked`,
-                s_7:`checked`,
-                s_8:`checked`,
+                s_1:`Checked`,
+                s_2:`Checked`,
+                s_3:`Checked`,
+                s_4:`Checked`,
+                s_5:`-------`,
+                s_6:`-------`,
+                s_7:`-------`,
+                s_8:`-------`,
                 
 
             }
@@ -183,7 +182,7 @@ Our intelligent recommendation system uses advanced AI algorithms to analyze
     },
     {
         w_no:6,
-        w_name:"Web ",
+        w_name:" Amazon Web Scrape",
         w_img:img_22,
          w_desc:"",
          w_overview: [
@@ -193,14 +192,14 @@ Our intelligent recommendation system uses advanced AI algorithms to analyze
         ],
         w_status:[
             {
-                s_1:`checked`,
-                s_2:`checked`,
-                s_3:`checked`,
-                s_4:`checked`,
-                s_5:`checked`,
-                s_6:`checked`,
-                s_7:`checked`,
-                s_8:`checked`,
+                s_1:`Checked`,
+                s_2:`Checked`,
+                s_3:`Checked`,
+                s_4:`Pending`,
+                s_5:`Pending`,
+                s_6:`Pending`,
+                s_7:`Pending`,
+                s_8:`Pending`,
                 
 
             }
