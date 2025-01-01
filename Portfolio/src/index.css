@@ -1,11 +1,56 @@
-*{
+* {
   margin: 0;
-  padding: 0;
+  paddingl: 0;
 }
 
-body{
-  height: 100vh;
-  background: #161513;
-    color: white;
-    font-family: 'outfit';
+body {
+  min-height: 100vh; /* Use min-height instead of height to allow scrolling */
+  color: white;
+  font-family: 'outfit';
+  background: #fffaf1; /* Base solid color */
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.955), rgba(255, 255, 255, 0.955)), /* Semi-transparent layer */
+    url('assets/Newfolder/13972.jpg'); /* Pattern image */
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
+
+  /* Ensure proper stacking context for pseudo-element */
+  position: relative;
+}
+
+/* Gradient animation layer */
+body::before {
+  content: '';
+  position: fixed; /* Fixed position for gradient animation */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(50deg, #fff5e2, #677bfb, #fffaf1, #fffaf1, #fffaf1,#00bdf1, #fffaf1);
+  background-size: 200% 200%;
+  animation: gradientMotion 7s ease-in-out infinite; /* Reduced animation speed */
+  z-index: -1; /* Keep it behind the content */
+  opacity: 0.7; /* Blend with image */
+  pointer-events: none; /* Ensure it doesn't block interactions */
+}
+
+/* Gradient animation keyframes */
+@keyframes gradientMotion {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Add scrolling content for testing */
+.content {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.6;
 }

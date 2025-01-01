@@ -1,9 +1,4 @@
-import project1_img from '../assets/project_1.svg'
-import project2_img from '../assets/project_2.svg'
-import project3_img from '../assets/project_3.svg'
-import project4_img from '../assets/project_4.svg'
-import project5_img from '../assets/project_5.svg'
-import project6_img from '../assets/project_6.svg'
+
 
 import img_1 from '../assets/mywork/Modern Minimalist Architecture Portfolio Presentation_page-0001.jpg'
 import img_2 from '../assets/mywork/Modern Minimalist Architecture Portfolio Presentation_page-0002.jpg'
@@ -27,6 +22,40 @@ import img_19 from '../assets/mywork/Screenshot2.jpg'
 import img_20 from '../assets/mywork/Screenshot3.jpg'
 import img_21 from '../assets/mywork/Screenshot4.jpg'
 import img_22 from '../assets/mywork/web_scrape.png'
+import img_23 from "../assets/mywork/New folder/1.png"
+import img_24 from "../assets/mywork/New folder/2.png"
+import img_25 from "../assets/mywork/New folder/3.png"
+import img_26 from "../assets/mywork/New folder/4.png"
+import img_27 from "../assets/mywork/New folder/5.png"
+import img_28 from "../assets/mywork/New folder/6.png"
+import img_29 from "../assets/mywork/New folder/7.jpg"
+import img_30 from "../assets/mywork/New folder/8.jpg"
+import img_31 from "../assets/mywork/New folder/9.jpg"
+import img_32 from "../assets/mywork/New folder/10.png"
+import img_33 from "../assets/mywork/New folder/11.png"
+import img_34 from "../assets/mywork/New folder/12.jpg"
+import img_35 from "../assets/mywork/New folder/13.jpg"
+import img_36 from "../assets/mywork/New folder/14.jpg"
+import img_37 from "../assets/mywork/New folder/15.jpg"
+import img_38 from "../assets/mywork/New folder/16.jpg"
+import img_39 from "../assets/mywork/New folder/17.jpg"
+import img_40 from "../assets/mywork/New folder/18.png"
+import img_41 from "../assets/mywork/New folder/19.png"
+import img_42 from "../assets/mywork/New folder/20.png"
+import img_43 from "../assets/mywork/New folder/21.png"
+import img_44 from "../assets/mywork/New folder/22.png"
+import img_45 from "../assets/mywork/New folder/23.png"
+import img_46 from "../assets/mywork/New folder/24.png"
+import img_47 from "../assets/mywork/New folder/25.png"
+import img_48 from "../assets/mywork/New folder/26.png"
+import img_49 from "../assets/mywork/New folder/27.png"
+import img_50 from "../assets/mywork/New folder/28.png"
+import img_51 from "../assets/mywork/New folder/Screenshot 2024-12-21 223118.jpg"
+
+import video2 from "../assets/mywork/New folder/v1.mp4"
+import video4 from "../assets/mywork/New folder/v2.mp4"
+import video5 from "../assets/mywork/New folder/v3.mp4"
+
 import video1 from '../assets/mywork/logos.mp4'
 
 import video3 from '../assets/mywork/video.mp4'
@@ -128,6 +157,96 @@ Our intelligent recommendation system uses advanced AI algorithms to analyze
         ]
     },
     {
+        w_no:7,
+        w_name:" Cinema Scheduling website UI Design",
+        w_img:img_23,
+         w_desc:` A user-friendly and visually appealing interface design for a cinema scheduling platform.
+          The UI facilitates easy browsing of movie schedules, booking tickets,
+           and managing user accounts, with separate roles for admins and regular users.`,
+         w_overview: [
+            {
+                images: [img_23,img_24,img_27,img_40] // Array of images
+            }
+        ],
+        w_status:[
+            {
+                s_1:`Checked`,
+                s_2:`Pending`,
+                s_3:`Pending`,
+                s_4:`Pending`,
+                s_5:`Pending`,
+                s_6:`Pending`,
+                s_7:`Pending`,
+                s_8:`Pending`,
+                
+
+            }
+        ]
+    },
+    {
+        w_no:8,
+        w_name:"Event managment Mobile app UI UX Design",
+        w_img:img_28,
+         w_desc:`An Event Management Mobile App UI/UX Design focuses on creating an intuitive, 
+         engaging, and visually appealing interface that simplifies planning, organizing, and participating in events. 
+         The design should cater to the needs of various user roles, such as event organizers, attendees, 
+         and vendors, ensuring seamless navigation and functionality`,
+         w_overview: [
+            {
+                images: [img_28,img_29,img_30,img_31,img_32] // Array of images
+            }
+        ],
+        w_status:[
+            {
+                s_1:`Checked`,
+                s_2:`Pending`,
+                s_3:`Pending`,
+                s_4:`Pending`,
+                s_5:`Pending`,
+                s_6:`Pending`,
+                s_7:`Pending`,
+                s_8:`Pending`,
+                
+
+            }
+        ]
+    },
+    {
+        w_no:9,
+        w_name:"my WireFrame collection Buiding ui Design",
+        w_img:img_33,
+         w_desc:`Wireframe Collection for UI Design
+
+This collection showcases a comprehensive set of wireframes designed to outline the structure, layout, and functionality of the user interface (UI) for [project or app name]. Each wireframe emphasizes clarity and usability, providing a foundation for seamless user interactions.
+
+Key features of this wireframe collection:
+
+User-Centric Design: Prioritizing intuitive navigation and accessibility to enhance user experience.
+Scalable Layouts: Flexible designs suitable for various screen sizes and devices.
+Functional Flow: Visualizing the flow between different screens to ensure logical progression and efficiency.
+Minimalistic Style: Focused on essential elements, avoiding distractions for a clean and clear design.
+These wireframes serve as a blueprint for the UI development process, bridging the gap between concept and implementation while aligning with modern design principles.`,
+         w_overview: [
+            {
+                images: [img_33,img_34,img_35,img_36,img_37,img_38,img_39,img_40,img_41,] // Array of images
+            }
+        ],
+        w_status:[
+            {
+                s_1:`Checked`,
+                s_2:`Pending`,
+                s_3:`Pending`,
+                s_4:`Pending`,
+                s_5:`Pending`,
+                s_6:`Pending`,
+                s_7:`Pending`,
+                s_8:`Pending`,
+                
+
+            }
+        ]
+    },
+    {
         w_no:4,
         w_name:" Brochure design",
         w_img:img_14,
@@ -187,7 +306,7 @@ Our intelligent recommendation system uses advanced AI algorithms to analyze
          w_desc:"",
          w_overview: [
             {
-                images: [, img_22] // Array of images
+                images: [img_22] // Array of images
             }
         ],
         w_status:[
@@ -195,6 +314,32 @@ Our intelligent recommendation system uses advanced AI algorithms to analyze
                 s_1:`Checked`,
                 s_2:`Checked`,
                 s_3:`Checked`,
+                s_4:`Pending`,
+                s_5:`Pending`,
+                s_6:`Pending`,
+                s_7:`Pending`,
+                s_8:`Pending`,
+                
+
+            }
+        ]
+    },
+   
+    {
+        w_no:9,
+        w_name:"Logo Design For UNION Technology",
+        w_img:img_43,
+         w_desc:"",
+         w_overview: [
+            {
+                images: [img_43,img_44,img_45,img_46,img_47,img_48,img_49,img_50,img_51,] // Array of images
+            }
+        ],
+        w_status:[
+            {
+                s_1:`Checked`,
+                s_2:`Pending`,
+                s_3:`Pending`,
                 s_4:`Pending`,
                 s_5:`Pending`,
                 s_6:`Pending`,

@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 80px;
     margin: 80px 170px ;
+    color: #000000;
 
 }
 
@@ -146,6 +147,7 @@
     display: flex;
     padding-left: 20px;
     gap: 200px;
+
 }
 
 .about-edu-data h3{
@@ -156,27 +158,23 @@
 }
 
 .about-edu-data h5 {
-    color: white;
+    color: rgb(0, 0, 0);
     opacity: 50%;
     font-weight: 200;
 }
 .about-edu-data h6 {
     display: flex;
-    color: white;
+    color: rgb(0, 0, 0);
     opacity: 50%;
     font-weight: 200;
     font-size: small;
 }
 .about-edu-data h4{
-    color: white;
+    color: rgb(0, 0, 0);
     opacity: 50%;
     font-weight: 200;
 }
-.about-edu-data h4{
-    color: white;
-    opacity: 50%;
-    font-weight: 200;
-}
+
 
 .certification{
     padding-top: 20px;
@@ -198,9 +196,9 @@
 
 .certificate-data h4{
     display: flex;
-    color: white;
+    color: rgb(0, 0, 0);
     opacity: 50%;
-    font-weight: 200;
+    font-weight: 500;
     font-size: small;
 }
 
@@ -271,6 +269,10 @@ padding-top: 20px;
     transition: 1.4s;
     text-decoration: none;
 }
+.edu-button h5 {
+    color: white;
+    text-decoration:none ;
+}
 
 .edu-button:hover{
     align-items: center;
@@ -315,7 +317,7 @@ padding-top: 20px;
     .about-title h1{
         width: 220px;
         font-size: 50px;
-        padding: 0;
+        padding-left: 300px;
         
     }
     .about-title img{
@@ -329,20 +331,22 @@ padding-top: 20px;
    
     .about-sections{
         display: flex;
-        padding-left: 20px;
+        padding-left: 10px;
       
     }
     .about-left{
         width: 250px;
     }
     .about-left img{
-        width: 300px;
+      width: 300px;
     }
 
    
     .about-para{
-        font-size: 15px;
+        text-align: justify;
+        font-size: 25px;
         line-height: 32px;
+        width: 600px;
 
     }
     .about-skill{
@@ -375,7 +379,7 @@ padding-top: 20px;
         font-size: 16px;
     }
     .cer-more{
-        margin-left: -40px;
+        padding-left: 300px;
     }
 
 }

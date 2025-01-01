@@ -88,8 +88,8 @@ const Educational = () => {
       {/* Modal 1 */}
       {isModal1Open && (
         <div className="modal">
-          <div className="modal-content">
-            <button className="close-button" onClick={closeModal}>X</button>
+          <div className="edu-modal-content">
+            <button className="edu-close-button" onClick={closeModal}>X</button>
             <h2>Educational Document</h2>
             <Regular />
           </div>
@@ -99,8 +99,8 @@ const Educational = () => {
         {/* Modal 2 */}
         {isModal2Open && (
         <div className="modal">
-          <div className="modal-content">
-            <button className="close-button" onClick={closeModal}>X</button>
+          <div className="edu-modal-content">
+            <button className="edu-close-button" onClick={closeModal}>X</button>
             <h2>Certification</h2>
                <div className="">
                <Certificate />

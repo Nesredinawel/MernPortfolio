@@ -35,9 +35,9 @@ const Service = () => {
       </div>
 
       {selectedService && (
-        <div className='modal'>
-          <div className='modal-content'>
-            <button className='close-button' onClick={handleCloseModal}><MdCloseFullscreen /></button>
+        <div className='modalservice'>
+          <div className='modalservice-content'>
+            <button className='close-buttton' onClick={handleCloseModal}><MdCloseFullscreen /></button>
             <ServiceDetail service={selectedService} />
           </div>
         </div>

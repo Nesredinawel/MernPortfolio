@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
+    color: #161513;
+    
+  
    
 
 }
@@ -29,16 +32,17 @@
 }
 
 .service-format{
-   
+  background: #fffaf1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap:20px;
     padding: 50px;
     border-radius: 10px;
-    border: 2px solid white;
+    border: 2px solid rgb(249, 236, 236);
     transition: 0.4s;
     cursor: pointer;
+    
 }
 
 .service-container{
@@ -54,6 +58,7 @@
 .service-format h3{
     font-size: 28px;
     font-weight: 600;
+    color: #fffaf1;
 }
 
 .service-format h2{
@@ -88,7 +93,7 @@
 .service-readmore button{
     padding: 10px 25px;
     border-radius: 50px;
-    background: linear-gradient(270deg, #cf500c 10%, #01ff78  100%);
+    background: linear-gradient(267deg, #25c5da 0.56%, #B923E1 102.6%);
    opacity: 60%;
     cursor: pointer;
     border: none;
@@ -97,7 +102,7 @@
 .service-readmore button:hover{
     padding: 10px 25px;
     border-radius: 50px;
-    background: linear-gradient(270deg, #cf500c 30%, #01ff78  100%);
+    background:  linear-gradient(267deg, #B923E1 102.6% ,#DA7C25 0.36%);
     cursor: pointer;
     border: none;
     transform: scale(1.05);
@@ -112,9 +117,9 @@
 }
 .service-format:hover{
     border: 2px solid #ff00ff;
-    background-image: linear-gradient(45deg, #3f0028 , #582300);
+    background-image: linear-gradient(45deg, #a4fff9 , #ffc9a4);
     transform: scale(1.05);
-    transition: 0.4s;
+    transition: 0.9s;
     
 }
 
@@ -122,13 +127,13 @@
 
 
 /* Modal overlay */
-.modal {
+.modalservice {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,49 +142,53 @@
   
  
   /* Modal content */
-.modal-content {
-    background: #01ff78;
-    opacity: 93%;
+.modalservice-content {
+   
+    opacity: 100%;
     border-radius: 10px;
-    position: relative;
+    position: absolute;
     width: calc(100% - 100px);
     height: calc(100% - 100px);
     padding: 4px 2px;
     overflow-y: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.modal-content {
     overflow: auto;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-  }
+    border: 2px solid #ff00ff;
+    background: white;
+   
   
-  .modal-content::-webkit-scrollbar {
+}
+
+  
+  .modalservice-content::-webkit-scrollbar {
     display: none;  /* Safari and Chrome */
   }
 
-.modal.open .modal-content {
+.modal.open .modalservice-content {
     transform: translateY(0);
     opacity: 1;
   }
   /* Close button */
-  .close-button {
+  .close-buttton {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 30px;
+    right: 30px;
     background: none;
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-    color: #01ff78;
+    color: #000000;
   }
   
   /* ServiceDetail styles */
   .service-detail {
     display: flex;
   padding: 20px;
+  padding-top: 300px;
  border-radius: 10px;
-    background: #161513;
+    background: #ffffff;
+   
   }
   
   .service-detail h1 {
@@ -236,6 +245,7 @@
    max-width: 700px;
    max-height: 500px;
     border-radius: 10px;
+    color: white;
    
 }
 
@@ -244,7 +254,7 @@
     top: 50%;
     transform: translateY(-50%);
     background-color: transparent;
-    color: rgb(112, 239, 15);
+  
     opacity: 40%;
     border: none;
     padding: 10px;
@@ -272,14 +282,19 @@
       margin: 10px 70px;
 
   }
+  .service-title{
+    width: 400px;
+    padding-left: 328px;
+  }
   .service-title h1 {
-      padding: 0;
+      padding: 20;
       font-size: 50px;
+      
 
   }
   .service-title img {
       width: 130px;
-      margin-right: -20px;
+      margin-right: 60px;
 
 
   }

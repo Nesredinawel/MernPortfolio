@@ -1,5 +1,5 @@
 .regular{
-    background: black;
+    background: rgb(255, 255, 255);
     
 }
 
@@ -27,16 +27,17 @@
 
 .left-top{
     padding: 20px 0px;
+    color: black;
 }
 .left-top h4{
   font-weight: 200;
-  color: chartreuse;
+ 
 }
 
 .left-bottom{
     width: 100%;
     height: auto;
-    background: teal;
+    background: rgb(218, 241, 255);
     border-radius: 20px;
    
    
@@ -57,12 +58,13 @@
 
 .right{
     padding: 20px;
-   
+    color: black;
     width: 100%;
 }
 
 .right p{
     padding: 20px;
+    color: black;
 }
 
 
@@ -198,4 +200,31 @@
   .close-button i {
     font-size: 18px;
   }
+  @media(max-width:768px){
+     /* Fullscreen overlay */
+  .fullscreen-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400vw;
+    height: 400vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    z-index: 100;
+    padding: 300px 0px;
+  }
   
+  .fullscreen-content {
+    
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .fullscreen-content img {
+    max-width: 900vw;
+    max-height: 200vh;
+  }
+  
+  }

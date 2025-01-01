@@ -5,6 +5,7 @@
     justify-content: center;
     gap: 80px;
     margin: 80px 170px;
+    color: #000000;
 
 
 
@@ -51,7 +52,7 @@
 }
 .contact-left p {
     max-width: 550px;
-    color: #d8d8d8;
+    color: #000000;
     font-size: 20px;
     line-height: 35px;
 
@@ -61,7 +62,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    color: #d8d8d8;
+    color: #000000;
     font-size: 22px;
 
 }
@@ -83,9 +84,9 @@
 }
 
 .contact-right label{
-    color: #d8d8d8;
+    color: #000000;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .contact-right input{
@@ -94,11 +95,11 @@
     height: 60px;
     padding-left: 20px;
     border-radius: 4px;
-    background: #32323c;
-    color: #a0a0a0;
+    background: #d5d5d5;
+    color: #000000;
     font-family: Outfit;
     font-size: 20px;
-
+    opacity: 20%;
 
 }
 
@@ -108,10 +109,11 @@
     border: none;
     padding: 25px;
     border-radius: 4px;
-    background: #32323c;
-    color: #a0a0a0;
+    background: #d5d5d5;
+    color: #000000;
     font-family: Outfit;
     font-size: 20px;
+    opacity: 20%;
 }
 .contact-submit{
     border: none;
@@ -123,6 +125,7 @@
     margin-bottom: 50px;
     cursor: pointer;
     transition: 0.3s;
+
 
 
 }

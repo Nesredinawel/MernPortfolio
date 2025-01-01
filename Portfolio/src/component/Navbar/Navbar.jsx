@@ -4,7 +4,7 @@ import logo from '../../assets/nasslogo.svg'
 import underline from '../../assets/nav_underline.svg'
 import { useState } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import menu_open from '../../assets/menu_open.svg'
+import menu_open from '../../assets/menu_pen.svg'
 import menu_close from '../../assets/menu_close.svg'
 
 
@@ -26,7 +26,7 @@ const closeMenu = () => {
   return (
     <div className='navbar'>
 
-      <img  className='logo' src={logo} alt="" />
+      <div className='logo'>NaSTech</div>
       <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
       <ul ref={menuRef} className='nav-menu'>
 <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
@@ -37,7 +37,7 @@ const closeMenu = () => {
         <li><AnchorLink className='anchor-link' offset={50} href='#work'> <p onClick={() => setmenu('work')}>Portfolio</p> </AnchorLink>{menu==="work"?<img src={underline} alt=''/>:<></>}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#contact'> <p onClick={() => setmenu('contact')}>Contact</p></AnchorLink> {menu==="contact"?<img src={underline} alt=''/>:<></>}</li>
       </ul>
-      <AnchorLink className='anchor-link nav-connect' offset={50} href='#contact'>  Connect with me </AnchorLink>
+      <AnchorLink className=' nav-connect' offset={50} href='#contact'>  Connect with me </AnchorLink>
     </div>
   )
 }

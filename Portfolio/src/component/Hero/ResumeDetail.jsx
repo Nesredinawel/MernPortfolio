@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css'; // Make sure this CSS file styles the buttons appropriately
-import resumeImage1 from '../../assets/resume1.jpg'; // Path to your resume image
+import resumeImage1 from '../../assets/resume3.jpg'; // Path to your resume image
 import resumeImage2 from '../../assets/resume2.jpg';
 const ResumeDetail = () => {
   const handlePrint = (image) => {
